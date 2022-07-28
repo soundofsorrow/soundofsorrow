@@ -57,8 +57,7 @@
 </p>
 <br>
 <h2 align="center">           📝 ~ Contact me ~ 📝</h2>
-  <div align="center">
-<img src="https://64.media.tumblr.com/3d988c2767556d40be675ab4e8f83b42/eaf3dcd0c504a36a-f6/s1280x1920/5d15fad20a719938e8a4767537602b30bbeacbcf.jpg" align="right" width="373.5px" height="200.5px">
+ 
   </div>
 <br>
 
