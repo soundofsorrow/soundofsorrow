@@ -8,6 +8,7 @@
    <img src="https://lanyard.cnrad.dev/api/320157051894366208?idleMessage=Cause,%20baby,%20tonight%20we're%20beautiful%20now&animated=true&theme=dark&borderRadius=20&hideBadges=true&hideDiscrim=true&bg=212121"  />
   </a>
   <br>
+
   
   ![](https://komarev.com/ghpvc/?username=soundofsorrow&style=flat-square)
 </div>
@@ -39,15 +40,20 @@
 <div>
   <h2 align="center">            ~ 📇 Knowledge 📇 ~</h2>
  <br>
-<p>
-  <div align="right">
-<img src="https://64.media.tumblr.com/9a934869aa8c0a1b01f375034bcb1c67/dfb455526448ff17-a2/s640x960/1815bf260493aee72ae06b1bcd458a56e4823ba2.jpg" align="right" width="373.5px" height="150.5px">
-  </div>
-</div>
+
   I'm good at writing python code but I can't say the same for R :)
 <div>
-  <br>
-<p align="center"><img src="https://camo.githubusercontent.com/9e64afc1bdbae61552ff381799ee1b43a8eb34f0e930629657c48c6290d5a34f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d507974686f6e2d677265793f7374796c653d666f722d7468652d6261646765266c6f676f3d507974686f6e266c6f676f436f6c6f723d666666666666"/> <img src="https://camo.githubusercontent.com/5e4465b59e49cbaad93cb118deb6612491d4ef5a3064ca14b964c9b62a813830/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d5253747564696f2d3030303f7374796c653d666f722d7468652d6261646765266c6f676f3d7273747564696f"/>
+  </a>
+<p align="left"><img src="https://camo.githubusercontent.com/5e4465b59e49cbaad93cb118deb6612491d4ef5a3064ca14b964c9b62a813830/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d5253747564696f2d3030303f7374796c653d666f722d7468652d6261646765266c6f676f3d7273747564696f"/>
+    </div>
+  
+  ![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
+</div>
+
+  ![MATLAB](https://img.shields.io/badge/MATLAB-D16432?style=for-the-badge&logo=M&logoColor=white)
+ </div>
+ 
+  ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 </p>
 <br>
 <h2 align="center">           📝 ~ Contact me ~ 📝</h2>
@@ -55,9 +61,13 @@
 <img src="https://64.media.tumblr.com/3d988c2767556d40be675ab4e8f83b42/eaf3dcd0c504a36a-f6/s1280x1920/5d15fad20a719938e8a4767537602b30bbeacbcf.jpg" align="right" width="373.5px" height="200.5px">
   </div>
 <br>
-        ..
-  .
-  .
+
+  [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto://atakan.topal6620@gop.edu.tr)
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mbglab/)
+  [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/mbglab/)
+ 
+ <br>
+ 
 </div>
 <br>
 <div>
