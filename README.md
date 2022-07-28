@@ -66,7 +66,7 @@
   [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/mbglab/)
  
  ![Timothy's GitHub stats](https://github-readme-stats.vercel.app/api?username=soundofsorrow&count_private=true&show_icons=true&theme=github_dark&cache_seconds=14400&show_icons)  
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=soundofsorrow&theme=github_dark&cache_seconds=14400&show_icons&langs_count=10&layout=compact)
+
  
  <br>
  
