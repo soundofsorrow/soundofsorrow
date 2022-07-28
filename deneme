@@ -1,111 +1,111 @@
-# dna = "ATGCATGGCAAATTTGCGCTTAGTCATGCATGGCAAAagctaggctacgtcagtaatgacgtaa"
-# motif = input ("Bir motif giriniz")
-# if motif in dna:
-#     print("girilen motiften dna'da" , dna.count(motif) , "tane vardır.")
-# else:
-#         print("verilen motif yoktur")
+dna = "ATGCATGGCAAATTTGCGCTTAGTCATGCATGGCAAAagctaggctacgtcagtaatgacgtaa"
+motif = input ("Bir motif giriniz")
+if motif in dna:
+    print("girilen motiften dna'da" , dna.count(motif) , "tane vardır.")
+else:
+        print("verilen motif yoktur")
 
-# dna = input("bir dizi giriniz")
-# dna1 = dna.upper()
-# if dna.startswith("ATG") and dna.endswith("TAA"):
-#     print("verdiğiniz parametrelere uygun bir dizidir.")
-# else:
-#     print("verdiğimiz parametrelere uygun bir dizi giriniz.")
+dna = input("bir dizi giriniz")
+dna1 = dna.upper()
+if dna.startswith("ATG") and dna.endswith("TAA"):
+    print("verdiğiniz parametrelere uygun bir dizidir.")
+else:
+    print("verdiğimiz parametrelere uygun bir dizi giriniz.")
 
-# gc_oran= float (input("bir gc oranı giriniz."))
-# if gc_oran >=0.40:
-#     print("giridiğiniz gc oran geçerlidir.")
-# else:
-#     print("girdiğiniz gc oran değerini lütfen değiştiriniz.")
-
-
-# dna = "ATGCATGGCAAATTTGCGCTTAGTCATGCATGGCAAAagctaggctacgtcagtaatgacgtaa"
-# dna = dna.upper()
-# print("verilen DNA dizisinde Adenin baz sayısı" , dna.count("A"))
-# print("verilen DNA dizisinde Timin baz sayısı" , dna.count("T"))
-# print("verilen DNA dizisinde Guanin baz sayısı" , dna.count("G"))
-# print("verilen DNA dizisinde Sitozin baz sayısı" , dna.count("C"))
-
-# dna = "ATGCATGGCAAATTTGCGCTTAGTCATGCATGGCAAAagctaggctacgtcagtaatgacgtaa"
-# dna1 = dna.upper()
-# print("verilen DNA dizisinin GC_oranı:" , (dna1.count("G") + dna1.count("C")) / len(dna1))
-# print("verilen dna dizisini rna dizisi şeklinde yazılması:" , dna1.replace(("T") , ("U")))
-
-# dna = "ATGCATGGCAAATTTGCGCTTAGTCATGCATGGCAAAagctaggctacgtcagtaatgacgtaa"
-# reverse_complement = dna[::-1]
-# for nukleotid in reverse_complement:
-#     if nukleotid == "A":
-#         print("T" , end="")
-#     elif nukleotid == "T":
-#         print("A" , end="")
-#     elif nukleotid == "G":
-#         print("C" , end="")
-#     elif nukleotid == "C":
-#         print("G" , end="")
+gc_oran= float (input("bir gc oranı giriniz."))
+if gc_oran >=0.40:
+    print("giridiğiniz gc oran geçerlidir.")
+else:
+    print("girdiğiniz gc oran değerini lütfen değiştiriniz.")
 
 
-# primer_dizisi = input("Bir primer dizisi giriniz")
-# primer_dizisi1 = primer_dizisi.upper()
-# dizi_uzunluğu = len(primer_dizisi1)
-# GC_oran = float( (primer_dizisi1.count("G") + primer_dizisi1.count("C")) / dizi_uzunluğu)
-# if dizi_uzunluğu >= 18 and dizi_uzunluğu <= 24 :
-#     if GC_oran >= 0.40 and GC_oran <= 0.60:
-#         print("Girdiğiniz primer dizisi uygundur.")
-# else:
-#     print("Girdiğinz primer dizisi uygun değildir.")
+dna = "ATGCATGGCAAATTTGCGCTTAGTCATGCATGGCAAAagctaggctacgtcagtaatgacgtaa"
+dna = dna.upper()
+print("verilen DNA dizisinde Adenin baz sayısı" , dna.count("A"))
+print("verilen DNA dizisinde Timin baz sayısı" , dna.count("T"))
+print("verilen DNA dizisinde Guanin baz sayısı" , dna.count("G"))
+print("verilen DNA dizisinde Sitozin baz sayısı" , dna.count("C"))
+
+dna = "ATGCATGGCAAATTTGCGCTTAGTCATGCATGGCAAAagctaggctacgtcagtaatgacgtaa"
+dna1 = dna.upper()
+print("verilen DNA dizisinin GC_oranı:" , (dna1.count("G") + dna1.count("C")) / len(dna1))
+print("verilen dna dizisini rna dizisi şeklinde yazılması:" , dna1.replace(("T") , ("U")))
+
+dna = "ATGCATGGCAAATTTGCGCTTAGTCATGCATGGCAAAagctaggctacgtcagtaatgacgtaa"
+reverse_complement = dna[::-1]
+for nukleotid in reverse_complement:
+    if nukleotid == "A":
+        print("T" , end="")
+    elif nukleotid == "T":
+        print("A" , end="")
+    elif nukleotid == "G":
+        print("C" , end="")
+    elif nukleotid == "C":
+        print("G" , end="")
 
 
-# # Bu kod da console olarak bir hata yok ama CAC nukleotidini 2 yazmada hata veriiyor bu problem çözülecek.
-# dna = "ATGCACACGTTT"
-# trinukleotidler = ["ATG","TGC","GCA",
-#                   "ACA" , "ACG","CGT", "CAC",
-#                   "GTT","TTT", "CAC"]
-# hepsinin_sayisi ={}
-# for trinukleotid in trinukleotidler:
-#      sayi = dna.count(trinukleotid)
-#      if sayi >0:
-#         hepsinin_sayisi[trinukleotid] = sayi
-# print(hepsinin_sayisi)
+primer_dizisi = input("Bir primer dizisi giriniz")
+primer_dizisi1 = primer_dizisi.upper()
+dizi_uzunluğu = len(primer_dizisi1)
+GC_oran = float( (primer_dizisi1.count("G") + primer_dizisi1.count("C")) / dizi_uzunluğu)
+if dizi_uzunluğu >= 18 and dizi_uzunluğu <= 24 :
+    if GC_oran >= 0.40 and GC_oran <= 0.60:
+        print("Girdiğiniz primer dizisi uygundur.")
+else:
+    print("Girdiğinz primer dizisi uygun değildir.")
 
-# # protein dizisi bilgileri(UNIPROT) = >sp|A2RU14|TM218_HUMAN OS=Homo sapiens OX=9606 GN=TMEM218 PE=1 SV=1
-# # kullanılan protein dizisi(UNIPROT)= MAGTVLGVGAGVFILALLWVAVLLLCVLLSRASGAARFSVIFLFFGAVIITSVLLLFPRAGEFPAPEVEVKIVDDFFIGRYVLLAFLSAIFLGGLFLVLIHYVLEPIYAKPLHSY
-# protein_dizi = input("bir protein dizisi giriniz")
-# protein_agirlik = {"A":89, "V":117, "L":131, "I":131, "P":115,
-# "F":165, "W":204, "M":149, "G":75, "S":105,
-# "C":121, "T":119, "Y":181, "N":132, "Q":146,
-# "D":133, "E":147, "K":146, "R":174, "H":155}
-# toplam_agirlik = 0
-# for aa in protein_dizi:
-#     toplam_agirlik = toplam_agirlik + protein_agirlik.get(aa.upper(),0)
-# toplam_agirlik = toplam_agirlik - (18 * (len(protein_dizi) - 1) )
-# print("Net ağırlık: {}" .format(toplam_agirlik))
 
-# dna = input("Bir DNA dizisi giriniz: ")
-# def translate_dna(dna):
-#      gencode = { 'ATA': 'I', 'ATC': 'I', 'ATT': 'I', 
-#             'ATG': 'M', 'ACA': 'T', 'ACC':'T',
-#             'ACG': 'T','ACT': 'T', 'AAC': 'N', 'AAT': 'N',
-#             'AGA': 'R', 'AGG': 'R',
-#             'CTA':'L','CCG': 'P', 'CCT': 'P',
-#             'AAA': 'K','CTC': 'L','CAC': 'H',
-#             'CCC':'P','AAG':'K', 'AGC':'S', 'AGT':'S','CTG':'L',
-#             'CTT': 'L', 'CCA':'P','CAT': 'H',
-#             'CAA': 'Q', 'CAG': 'Q','GTA': 'V', 'GTC': 'V',
-#             'GTG': 'V','GCT': 'A', 'GAC': 'D', 'GAT': 'D',
-#             'GGG': 'G', 'GGT': 'G', 'TCA': 'S','CGA': 'R', 'CGC': 'R',
-#             'CGG': 'R','GGC':'G','GTT': 'V', 'GCA': 'A', 'GCC': 'A',
-#             'GAA': 'E', 'GAG':'E', 'GGA': 'G','TCC':'S', 'TCG': 'S',
-#             'TAC': 'Y', 'TAT': 'Y','TCT': 'S', 'TTC':'F','TTT':'F',
-#             'TTA':'L', 'TTG': 'L','TAA':'_', 'TAG':'_', 'TGC': 'C',
-#             'TGT': 'C', 'TGA':'_', 'TGG': 'W','CGT':'R' }
-#      son_kodon_baslangic = len(dna) - 2
-#      protein = ""
-#      for baslangic in range(0, son_kodon_baslangic,3):
-#         codon = dna.upper()[baslangic:baslangic+3]
-#         aa = gencode.get(codon,"aminoasit bulunamadı")
-#         protein += aa
-#      return protein
-# print(translate_dna(dna))
+# Bu kod da console olarak bir hata yok ama CAC nukleotidini 2 yazmada hata veriiyor bu problem çözülecek.
+dna = "ATGCACACGTTT"
+trinukleotidler = ["ATG","TGC","GCA",
+                  "ACA" , "ACG","CGT", "CAC",
+                  "GTT","TTT", "CAC"]
+hepsinin_sayisi ={}
+for trinukleotid in trinukleotidler:
+     sayi = dna.count(trinukleotid)
+     if sayi >0:
+        hepsinin_sayisi[trinukleotid] = sayi
+print(hepsinin_sayisi)
+
+# protein dizisi bilgileri(UNIPROT) = >sp|A2RU14|TM218_HUMAN OS=Homo sapiens OX=9606 GN=TMEM218 PE=1 SV=1
+# kullanılan protein dizisi(UNIPROT)= MAGTVLGVGAGVFILALLWVAVLLLCVLLSRASGAARFSVIFLFFGAVIITSVLLLFPRAGEFPAPEVEVKIVDDFFIGRYVLLAFLSAIFLGGLFLVLIHYVLEPIYAKPLHSY
+protein_dizi = input("bir protein dizisi giriniz")
+protein_agirlik = {"A":89, "V":117, "L":131, "I":131, "P":115,
+"F":165, "W":204, "M":149, "G":75, "S":105,
+"C":121, "T":119, "Y":181, "N":132, "Q":146,
+"D":133, "E":147, "K":146, "R":174, "H":155}
+toplam_agirlik = 0
+for aa in protein_dizi:
+    toplam_agirlik = toplam_agirlik + protein_agirlik.get(aa.upper(),0)
+toplam_agirlik = toplam_agirlik - (18 * (len(protein_dizi) - 1) )
+print("Net ağırlık: {}" .format(toplam_agirlik))
+
+dna = input("Bir DNA dizisi giriniz: ")
+def translate_dna(dna):
+     gencode = { 'ATA': 'I', 'ATC': 'I', 'ATT': 'I', 
+            'ATG': 'M', 'ACA': 'T', 'ACC':'T',
+            'ACG': 'T','ACT': 'T', 'AAC': 'N', 'AAT': 'N',
+            'AGA': 'R', 'AGG': 'R',
+            'CTA':'L','CCG': 'P', 'CCT': 'P',
+            'AAA': 'K','CTC': 'L','CAC': 'H',
+            'CCC':'P','AAG':'K', 'AGC':'S', 'AGT':'S','CTG':'L',
+            'CTT': 'L', 'CCA':'P','CAT': 'H',
+            'CAA': 'Q', 'CAG': 'Q','GTA': 'V', 'GTC': 'V',
+            'GTG': 'V','GCT': 'A', 'GAC': 'D', 'GAT': 'D',
+            'GGG': 'G', 'GGT': 'G', 'TCA': 'S','CGA': 'R', 'CGC': 'R',
+            'CGG': 'R','GGC':'G','GTT': 'V', 'GCA': 'A', 'GCC': 'A',
+            'GAA': 'E', 'GAG':'E', 'GGA': 'G','TCC':'S', 'TCG': 'S',
+            'TAC': 'Y', 'TAT': 'Y','TCT': 'S', 'TTC':'F','TTT':'F',
+            'TTA':'L', 'TTG': 'L','TAA':'_', 'TAG':'_', 'TGC': 'C',
+            'TGT': 'C', 'TGA':'_', 'TGG': 'W','CGT':'R' }
+     son_kodon_baslangic = len(dna) - 2
+     protein = ""
+     for baslangic in range(0, son_kodon_baslangic,3):
+        codon = dna.upper()[baslangic:baslangic+3]
+        aa = gencode.get(codon,"aminoasit bulunamadı")
+        protein += aa
+     return protein
+print(translate_dna(dna))
 
 
 
