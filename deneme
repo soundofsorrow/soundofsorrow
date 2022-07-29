@@ -108,7 +108,32 @@ def translate_dna(dna):
 print(translate_dna(dna))
 
 
+#kodon tanımlama uygulaması
+print("""
+kodon tanımlama uygulaması
+1.Kodon ekleme
+2.Kodon silme
+0.Çıkış
+""")
+kodon_sozlugu = {}
+while (True):
+    islem = input("Lütfen yapmak istediğiniz işlemi giriniz")
+    if islem == "0" :
 
+        print("İslem sonlandırılıyor...")
+        break
+    elif islem == "1":
+        kodon_adi = input("Lütfen kodon adı giriniz")
+        kodon = input("Lütfen kodon giriniz")
+        kodon_sozlugu[kodon_adi] = kodon
+        print(kodon_sozlugu)
+    elif islem == "2":
+        silinen_kodon = input("Lütfen silmek istediğiniz kodon giriniz")
+        kodon_sozlugu.pop(silinen_kodon)
+        print(kodon_sozlugu)
+    else:
+        print("Hatalı giriş yaptığınız lütfen tekrar deneyiniz")
+        
 
 
 
